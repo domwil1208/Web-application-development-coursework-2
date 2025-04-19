@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Book This Class</title>
+  <link href="/styles.css" rel="stylesheet">
+  <link href="/icons.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container py-5">
+    <h1 class="mb-4">Book This Class</h1>
+
+    <form method="POST" action="/book-class/{{classId}}" class="needs-validation" novalidate>
+      <div class="mb-3">
+        <label for="name" class="form-label">Your Name</label>
+        <input id="name" name="name" type="text" class="form-control" placeholder="Your name" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="email" class="form-label">Your Email</label>
+        <input id="email" name="email" type="email" class="form-control" placeholder="Your email" required>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Book Class</button>
+      <a href="/courses" class="btn btn-secondary ms-2">← Back to Courses</a>
+    </form>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
