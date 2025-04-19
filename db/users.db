@@ -2,3 +2,5 @@
 {"username":"a","passwordHash":"$2b$10$8PxfugxZx8oCsO7ewgfXxuQorJdnZed5adDQ6udot7euFlGI/bTWy","role":"organiser","_id":"SvQ8m4ffcgCDyiAi"}
 {"username":"admin","passwordHash":"$2b$10$zIdoWNZ939UBEdyXZeK4TekGL3e6ukY7Phz1AfKXSZHOZ2HuQiOQG","role":"organiser","_id":"idkVIcVW7z3NJblg"}
 {"username":"organisertest1","passwordHash":"$2b$10$RksOHe0QkwDwnf/M9mb8guGeq1Q3CMF2iSeyY9mFTSD4kCXya8fem","role":"organiser","_id":"vNclPkjnkgEjCw15"}
+{"username":"TestOrganiser","passwordHash":"$2b$10$TzBhDyDmOO/DLzs/gRGy9uhSn5RJjiEQu03WXB17oyTx/8HRXRqX6","role":"organiser","_id":"hSaxEvB4hAz78jBn"}
+{"$$deleted":true,"_id":"hSaxEvB4hAz78jBn"}

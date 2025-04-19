@@ -23,7 +23,7 @@
       <h3>{{name}} ({{duration}}) - £{{price}} @ {{location}}</h3>
       <p>{{description}}</p>
       <a href="/organiser/add-class?courseId={{_id}}" class="btn btn-success mb-2">+ Add Class</a> |
-      <a href="/organiser/delete-course/{{_id}}" class="btn btn-danger mb-2" onclick="return confirm('Delete this course and its classes?')">🗑 Delete Course</a>
+      <a href="/organiser/delete-course/{{_id}}" class="btn btn-danger mb-2" onclick="return confirm('Delete this course and its classes?')">Delete Course</a>
 
       {{#classes.length}}
         <h4>Classes</h4>
@@ -34,9 +34,9 @@
                 <strong>{{datetime}}</strong> - {{description}} @ {{location}}
               </div>
               <div>
-                <a href="/organiser/class-participants/{{_id}}" class="btn btn-warning btn-sm">📝 View Class Participants</a>
-                <a href="/organiser/edit-class/{{_id}}" class="btn btn-secondary btn-sm">✏️ Edit</a> |
-                <a href="/organiser/delete-class/{{_id}}" class="btn btn-danger btn-sm" onclick="return confirm('Delete this class?')">🗑 Delete</a>
+                <a href="/organiser/class-participants/{{_id}}" class="btn btn-warning btn-sm">View Class Participants</a>
+                <a href="/organiser/edit-class/{{_id}}" class="btn btn-secondary btn-sm">Edit</a> |
+                <a href="/organiser/delete-class/{{_id}}" class="btn btn-danger btn-sm" onclick="return confirm('Delete this class?')">Delete</a>
               </div>
             </li>
           {{/classes}}

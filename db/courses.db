@@ -1,3 +1,5 @@
 {"name":"course 2","description":"Another course","duration":"10 weeks","price":"10","location":"outdoor centre","_id":"H1pdam07LoufC7Y9"}
 {"name":"Dancing","description":"Dance","duration":"12 weeks","price":"15","location":"Centre","_id":"i5Eca99xFUtY35sY"}
 {"name":"Workshop","description":"A weekend workshop","duration":"2 days","price":"20","location":"Room 12","_id":"qWGjLuCjgpL8SZHa"}
+{"name":"Dancing","description":"Regular classes once a week","duration":"20 weeks","price":"25","location":"Centre","_id":"vDNugIw8RJkFXR6D"}
+{"name":"Dancing","description":"Regular classes once a week","duration":"20","price":"25","location":"Centre","_id":"hESX8CN9SWaje0Us"}

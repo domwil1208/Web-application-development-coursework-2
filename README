@@ -1,0 +1,9 @@
+HOW TO RUN:
+
+Type 'node app.js' into terminal
+Open localhost:3000 in brower
+
+To sign in as organiser use:
+
+Username: admin
+password: admin123

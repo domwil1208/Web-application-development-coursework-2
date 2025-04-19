@@ -30,7 +30,6 @@ exports.getParticipantsByClass = (classId, callback) => {
       return callback(err || new Error('Class not found'));
     }
     
-    console.log('Class found:', classObj); // Log the class object
 
     db.find({ type: 'class', classId }, (err, classParticipants) => {
       if (err) {
@@ -38,7 +37,6 @@ exports.getParticipantsByClass = (classId, callback) => {
         return callback(err);
       }
 
-      console.log('Participants found:', classParticipants); // Log participants array
 
       callback(null, classParticipants);
     });
