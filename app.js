@@ -8,7 +8,8 @@ const authRoutes = require('./routes/auth');
 const organiserRoutes = require('./routes/organiser');
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
+
 
 // Set up Mustache
 app.engine('mustache', mustacheExpress());
@@ -35,5 +36,5 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Start server
 app.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}`);
+  console.log(`Server is running on port ${PORT}`);
 });
